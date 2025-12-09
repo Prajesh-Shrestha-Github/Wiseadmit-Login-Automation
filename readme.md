@@ -3,21 +3,22 @@
 This is a simple automation test suite for WiseAdmit ApplyNow sign-in page using Cypress and Page Object Model.
 
 ## Setup
-Step 1: npm install
+Step 1: ```npm install```
 
 Step 2: Create `cypress.env.json` file with your credentials:
-
+```json
 {
   "email": "your-email@example.com",
   "password": "your-password"
 }
-
+```
 
 ## Run Tests
 
 
-npm run test        # Run all tests
-npm run test:open   # Open Cypress GUI
+- ```npm run test``` (Run all tests)
+- ```npm run test:open```  (Open Cypress GUI)
+
 
 
 
@@ -32,7 +33,7 @@ npm run test:open   # Open Cypress GUI
 - Empty fields
 - Invalid email format
 
-EXcel Sheet: https://docs.google.com/spreadsheets/d/17KaX27eUM6CbFJV7iZiGV8xoX1cCA-F1J6ZDxMZ7kys/edit?usp=sharing
+Excel Sheet: https://docs.google.com/spreadsheets/d/17KaX27eUM6CbFJV7iZiGV8xoX1cCA-F1J6ZDxMZ7kys/edit?usp=sharing
 
 ## Things That Could Break Sign-In
 
